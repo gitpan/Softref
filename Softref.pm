@@ -14,7 +14,7 @@ require AutoLoader;
 @EXPORT = qw(
   ref2soft	
 );
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 bootstrap Softref $VERSION;
 

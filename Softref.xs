@@ -8,7 +8,7 @@ extern "C" {
 }
 #endif
 
-#define ref2soft sv_rvsoft
+#define ref2soft sv_rv2weak
 
 MODULE = Softref		PACKAGE = Softref		
 
